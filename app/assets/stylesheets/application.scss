@@ -19,6 +19,156 @@
 @import "bootstrap";
 @import "font-awesome";
 
+/*===== footer ====*/
+.footer{
+    text-align: center;
+    min-height: 250px;
+    background-color: #4E342E;
+    padding: 15px 0;
+    color: #fff;
+
+    h4{
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    li{
+      margin-top: 5px;
+    }
+
+    a{
+      text-decoration:none;
+      color: #ccc;
+    }
+    a:hover,
+    a:active,
+    a:focus{
+      color: #4A6BB5;
+    }
+
+    img{
+      width: 35px;
+      margin: 5px;
+    }
+
+    img:hover{
+      opacity: 0.75;
+    }
+
+    p{
+      a{
+        color: #4A6BB5;
+      }
+      a:hover{
+        color: #35CCC6;
+      }
+    }
+
+    .footer-box{
+      text-align: center !important;
+      margin-top: 15px;
+    }
+}
+
+.footer-content{
+  font-size: 16px;
+  font-family: Raleway;
+  color: #ddd;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  font-weight: 200;
+
+  img{
+    width: 25px;
+    margin-left: 7.5px;
+    margin-right: -0.1px;
+  }
+  img:hover{
+    opacity: 1;
+  }
+
+}
+
+.goodjob{
+  float: center;
+  margin-top: -10px;
+  img{
+    width: 60px;
+  }
+  a:hover{
+    opacity: 0.45;
+  }
+
+}
+/*===== footer ====*/
+
+.our-experts{
+    background-color: #F2F2F2;
+    margin: -20px -15px -10px;
+    p{
+      letter-spacing: 1px;
+    }
+    a{
+      text-decoration:none;
+      color: #002E2E;
+    }
+
+    img{
+      width: 80px;
+
+    }
+}
+.section-title{
+  margin-top: 50px;
+}
+
+.what-we-do{
+    text-align: center;
+
+    img{
+      margin-top: 30px;
+      margin-bottom: -35px;
+      width: 100px;
+    }
+}
+
+.what-we-do .do-box{
+    border: 1px solid transparent;
+}
+
+.do-box h3{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.do-box p {
+    color: #666;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin: 40px 25px 40px 25px;
+}
+
+.short-line {
+    display: block;
+    background: #35CCC6;
+    border-style: none;
+    border-radius: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    z-index: 53;
+    width: 150px;
+    height: 1.20px;
+    position: relative;
+}
 
 .jumbotron {
   background-image:url('http://ww3.sinaimg.cn/large/006tNbRwly1ff4se4c33cj31kw11znpj.jpg');
@@ -45,7 +195,7 @@
   margin-top: 10px;
   margin-bottom: 50px;
   text-align: center;
-  color: black;
+  color: red;
   top: 12px;
 }
 
@@ -79,8 +229,8 @@
 /****** 导航栏颜色 *******/
 
 .navbar-default {
-    background-color: #212121;//背景颜色
-    border-color: #212121;//边框色
+    background-color: #4E342E;//背景颜色
+    border-color: #4E342E;//边框色
     margin-bottom: 0;//底部 margin 不撑开距离
 }
 
