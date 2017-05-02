@@ -1,12 +1,20 @@
-<h1> Add a job </h1>
+ 
+<div class="col-md-10 col-centered">
+   <div class="panel panel-default panel-info">
+    <div class="panel-heading"><h4>Add a job</h4></div>
+      <div class="panel-body">
+        <%= simple_form_for @job do |f| %>
 
-<%= simple_form_for [:admin,@job] do |f| %>
-<%= f.input :title %>
-<%= f.input :description %>
-<%= f.input :wage_lower_bound, :label => "薪资下限" %>
-<%= f.input :wage_upper_bound, :label => "薪资上限" %>
-<%= f.input :contact_email %>
+	    <%= f.input :title %>
+		<%= f.input :description %>
+		<%= f.input :wage_lower_bound, :label => "薪资下限" %>
+		<%= f.input :wage_upper_bound, :label => "薪资上限" %>
+		<%= f.input :contact_email %>
 
-<%= f.input :is_hidden %>
-<%= f.submit "Submit" %>
-<% end %>
+		<%= f.input :is_hidden %>
+		<%= f.submit "Submit", class: "btn btn-info"  %>
+
+		<% end %>
+  	  </div>
+    </div>
+</div>

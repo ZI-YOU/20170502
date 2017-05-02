@@ -1,4 +1,10 @@
-<table class="table table-boldered table-striped custab">
+<div class=" pull-right ">
+  <%= link_to("Add a job", new_admin_job_path, :class => "btn btn-default-lg  btn-info" ) %>
+</div>
+
+<div class="col-md-12 col-centered">
+<table class="table table-boldered table-striped custab ">
+
 	<thead>
 	<tr>
 		<td>职缺</td>
@@ -7,6 +13,7 @@
 		<td>薪资上限</td>
 		<td>管理选项</td>
 		<td>刊登时间</td>
+
 	</tr>
 	</thead>
 
@@ -33,4 +40,5 @@
 		<td> <%= job.created_at %> </td>
 	</tr>
 	<% end %>
+
 </table>
